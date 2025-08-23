@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Reset (Tailwind already resets margins/padding) */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: 'Inter', sans-serif; */
+  line-height: 1.6;
+  color: #4A5568;
+  background: linear-gradient(135deg, #E8F4FD 0%, #F8E8F5 50%, #FFF8E1 100%);
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #7DD3FC;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0EA5E9;
+}
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7DD3FC #f1f1f1;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Buttons */
+.btn-primary {
+  @apply bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-blue-700 hover:shadow-lg hover:scale-105;
+}
+
+.btn-secondary {
+  @apply border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-blue-600 hover:text-white;
+}
+
+/* Card hover */
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+}
+
+/* Skill badge */
+.skill-badge {
+  @apply px-3 py-1 text-sm font-medium rounded-full transition-all duration-300 hover:scale-105;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #0EA5E9, #F472B6, #FDE047);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Section spacing & container */
+.section-padding {
+  @apply py-20 px-4;
+}
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Form styles */
+input, textarea {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all duration-300;
+}
+input:focus, textarea:focus {
+  box-shadow: 0 0 0 3px rgba(125, 211, 252, 0.1);
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .section-padding {
+    @apply py-12 px-4;
+  }
+}
