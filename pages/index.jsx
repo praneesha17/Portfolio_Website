@@ -13,13 +13,13 @@ export default function Home() {
     <>
       <Head>
         <title>Praneesha Voleti - Full-Stack Developer</title>
-        <meta name="description" content="AI & Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces that solve real-world problems." />
-        <meta name="keywords" content="AI, Full-Stack Developer, Machine Learning, React, ServiceNow, Web Development, Praneesha Voleti" />
+        <meta name="description" content="Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces that solve real-world problems." />
+        <meta name="keywords" content="Full-Stack Developer, Machine Learning, React, ServiceNow, Web Development, Praneesha Voleti" />
         <meta name="author" content="Praneesha Voleti" />
         
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Praneesha Voleti - Full-Stack Developer" />
-        <meta property="og:description" content="AI & Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces that solve real-world problems." />
+        <meta property="og:description" content="Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces that solve real-world problems." />
         <meta property="og:image" content="/profile.jpg" />
         <meta property="og:type" content="website" />
         
