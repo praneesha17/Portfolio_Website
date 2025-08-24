@@ -12,21 +12,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Praneesha Voleti - AI & Full-Stack Developer</title>
+        <title>Praneesha Voleti - Full-Stack Developer</title>
         <meta name="description" content="AI & Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces that solve real-world problems." />
         <meta name="keywords" content="AI, Full-Stack Developer, Machine Learning, React, ServiceNow, Web Development, Praneesha Voleti" />
         <meta name="author" content="Praneesha Voleti" />
         
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Praneesha Voleti - AI & Full-Stack Developer" />
+        <meta property="og:title" content="Praneesha Voleti - Full-Stack Developer" />
         <meta property="og:description" content="AI & Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces that solve real-world problems." />
         <meta property="og:image" content="/profile.jpg" />
         <meta property="og:type" content="website" />
         
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Praneesha Voleti - AI & Full-Stack Developer" />
-        <meta name="twitter:description" content="AI & Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces." />
+        <meta name="twitter:title" content="Praneesha Voleti - Full-Stack Developer" />
+        <meta name="twitter:description" content="Full-Stack Developer passionate about creating intelligent systems and beautiful interfaces." />
         <meta name="twitter:image" content="/profile.jpg" />
         
         {/* Favicon */}
