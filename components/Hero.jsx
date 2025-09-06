@@ -47,7 +47,7 @@ const Hero = () => {
               </button>
 
               <a
-                href="/Praneesha Voleti.pdf"  // 👉 place your resume in public/resume.pdf
+                href="/Praneesha_Voleti.pdf"  // 👉 place your resume in public/resume.pdf
                 download
                 className="btn-secondary inline-flex items-center space-x-2"
               >
